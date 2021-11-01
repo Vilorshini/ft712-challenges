@@ -171,25 +171,21 @@ li > a:hover {
 
 .cards {
   display: flex;
-  margin-left: 50px;
-  margin-right: auto;
-
+  margin-left: 4%;
+  margin-right: 2%;
 }
 
 svg {
   width: 50vw;
- 
 }
 
 .content-section{
   display: flex;
-  padding: 0px 250px 0px 250px;
-  
+  padding: 0px 250px 0px 250px; 
 }
 
 .team-text-section {
   padding: 125px 0px 0px 0px;
-  
 }
 
 .container-card h2 {
@@ -198,7 +194,6 @@ svg {
 
 .content-section svg {
   margin: 0px 50px 0px 70px;
-  
 }
 
 .card-category {
@@ -219,7 +214,18 @@ svg {
 }
 
 .newsletter-bloc {
-  display: flex;
+    display: flex;
+    
+    align-items: center;
+    padding: 0% 2% 4%;
+    background-color: #303030;
+    margin-bottom: 4%;
+}
+.img-bloc {
+  height: 500px;
+  width: 760px;
+  margin-left: 2%;
+  
 }
 
 .module-container {
@@ -246,6 +252,12 @@ svg {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   font-size: 30px;
+}
+
+.newsletter-bloc {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .form {
@@ -298,7 +310,7 @@ svg {
 
 .pf-wrapper {
   display: flex;
-  
+
 }
 .pf-section {
   display: left;
