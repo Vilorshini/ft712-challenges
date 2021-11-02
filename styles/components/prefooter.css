@@ -5,7 +5,9 @@
   width: 20%;
   background-color: #303030;
   z-index: -1;
+
 }
+/* clip-path: polygon(0 0, 100% 0, 100% 35%, 100% 47%, 100% 58%, 100% 100%, 0 100%, 0 40%, 10% 30%, 0 20%); */
 
 .pf-child {
   position: relative;
@@ -15,6 +17,8 @@
   background-color: #797979;
   z-index: -20;
   margin-left: 1px;
+  clip-path: polygon(0 0, 100% 0, 100% 18%, 100% 32%, 100% 58%, 100% 100%, 0 100%, 0 40%, 10% 30%, 0 20%);
+
 }
 
 .inside {
@@ -42,4 +46,8 @@ i {
   font-size: 3rem !important;
   color: aliceblue;
   font-weight: 600;
+}
+
+.pf-section {
+  
 }
