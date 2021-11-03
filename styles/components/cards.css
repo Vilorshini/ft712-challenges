@@ -1,0 +1,28 @@
+.container-card h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center; 
+}
+
+.card-category {
+  margin: 0px 15px 0px 15px;
+  width: 28%;
+  height: 35vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-family: 'Open Sans', sans-serif;
+}  

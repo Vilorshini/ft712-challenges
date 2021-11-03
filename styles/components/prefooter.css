@@ -61,3 +61,15 @@ i {
   font-weight: 600;
 }
 
+.pf-section {
+  display: left;
+}
+
+.pf-wrapper {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}  
+
+.inside-normal {
+  justify-content: center;
+}
