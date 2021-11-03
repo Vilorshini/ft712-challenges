@@ -2,22 +2,35 @@
   position: relative;
   left: 10px;
   height: 250px;
-  width: 20%;
+  width: 245px;
   background-color: #303030;
-  z-index: -1;
-
+  z-index:-1;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 100% 47%, 100% 58%, 100% 100%, 0 100%, 0 40%, 10% 30%, 0 20%);
+  
 }
-/* clip-path: polygon(0 0, 100% 0, 100% 35%, 100% 47%, 100% 58%, 100% 100%, 0 100%, 0 40%, 10% 30%, 0 20%); */
+
+#pointer-child { 
+  height: 0;
+  width: 0;
+  display: inline-block;
+  border: 25px solid transparent;
+  border-left-color: #303030;
+  position: absolute;
+  top: 18%;
+  left: -2px;
+ }
+
+
 
 .pf-child {
   position: relative;
   left: 10px;
   height: 250px;
-  width: 20%;
-  background-color: #797979;
+  width: 245px;
+  background-color: #797979; 
+  /* 797979 */
   z-index: -20;
   margin-left: 1px;
-  clip-path: polygon(0 0, 100% 0, 100% 18%, 100% 32%, 100% 58%, 100% 100%, 0 100%, 0 40%, 10% 30%, 0 20%);
 
 }
 
@@ -39,7 +52,7 @@
   align-items: center;
   text-align: center;
   color: white;
-  height: 100%;
+  height: 100%; 
 }
 
 i {
@@ -48,6 +61,3 @@ i {
   font-weight: 600;
 }
 
-.pf-section {
-  
-}
