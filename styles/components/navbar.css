@@ -39,7 +39,6 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  justify-content: space-between;
   padding: 25px;
   min-width: 40vw;
   left: 10%;
@@ -57,7 +56,6 @@
 .dropdown-images img {
   width: 300px;
   border-radius: 4px;
-  float: right;
 }
 
 .navbar-logo {
@@ -114,10 +112,12 @@
 }
 
 .dropdown:hover .dropdown-content-right {
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 .dropdown:hover .dropdown-content-left {
   display: flex;
+  justify-content: space-between;
 }
 
 .dropdown:hover .dropbtn {
